@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Personality Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="extra.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<div class="homeIconClass">
+    <div id="homeIcon" class="material-icons"><a style="color: #555" onmouseover="this.style.color='#f7f7f7'" onmouseout="this.style.color='#555'" href="index.html">arrow_back</a></div>
+</div>
+
+    <div class="quiz-container">
+        <div class="title">Personality Quiz</div>
+        <div id="question" class="question"></div>
+        <img id="image" width="300px" src=""/>
+        <label class="option">
+            <input type="radio" name="option" value="1" />
+            <span class="option1"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="2" />
+            <span class="option2"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="3" />
+            <span class="option3"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="4" />
+            <span class="option4"></span>
+        </label>
+        <!-- Buttons -->
+        <div class="controls">
+            <button class="previous">Previous</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+
+    <div class="result">
+
+    </div>
+
+    <script src=questions.js></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
